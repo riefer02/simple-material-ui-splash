@@ -76,6 +76,14 @@ const cards = [
       "I'm a self-taught full stack developer. I can create anything and everything. The only ingredients I need are patience and time.",
     link: "https://www.riefer.io/",
   },
+  {
+    image: "https://source.unsplash.com/random",
+    imageDescription: "andrew teaching",
+    title: "Teacher",
+    description:
+      "I spent many years teaching myself to learn, then I spent more time teaching others. Seeing the light bulb go off in someone's eyes never gets old. ",
+    link: "/",
+  },
 ];
 
 export default function Album() {
@@ -155,7 +163,7 @@ export default function Album() {
                   </CardContent>
                   <CardActions>
                     <Button size="small" color="primary">
-                      Go to website
+                      Learn More
                     </Button>
                     {/* <Button size="small" color="primary">
                       Edit
